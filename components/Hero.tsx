@@ -25,7 +25,7 @@ export default function Hero() {
                   Business Analyst | Product Analyst | UI/UX Enthusiast
                 </p>
                 <p className="text-base sm:text-lg text-foreground/90 leading-relaxed max-w-2xl">
-                  Computer Science undergraduate passionate about Business Analysis, Product Thinking, User Experience Design, Quality Assurance, and building technology-driven solutions that create real value for users and organizations.
+                  Final-year BSc (Hons) Computer Science student at NSBM Green University, passionate about Business Analysis, Product Management, User Experience Design, Quality Assurance, and building technology-driven solutions that create measurable business value.
                 </p>
               </div>
             </div>
@@ -47,6 +47,12 @@ export default function Hero() {
                 className="w-full sm:w-auto text-center px-6 py-3 bg-accent text-accent-foreground font-medium rounded-lg hover:shadow-lg hover:bg-accent/90 transition-all duration-300"
               >
                 Download IT CV
+              </a>
+              <a
+                href="/portfolio.pdf"
+                className="w-full sm:w-auto text-center px-6 py-3 bg-secondary text-secondary-foreground font-medium rounded-lg hover:shadow-lg hover:bg-secondary/90 transition-all duration-300"
+              >
+                Download Portfolio PDF
               </a>
               <a
                 href="https://www.linkedin.com/in/hansinisamarathunga"

@@ -22,7 +22,10 @@ export default function Education() {
                   <p className="text-lg text-accent font-semibold mb-2">
                     Bachelor of Science (Honours) in Computer Science
                   </p>
-                  <p className="text-card-foreground mb-2">Expected Graduation: 2026</p>
+                  <p className="text-card-foreground mb-2">
+                    Affiliated with Plymouth University, UK<br />
+                    Class of 2026
+                  </p>
                   <p className="text-card-foreground">Specialized in system design, software development, business analysis, and digital innovation</p>
                 </div>
               </div>

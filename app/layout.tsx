@@ -10,7 +10,7 @@ const _inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
 
 export const metadata: Metadata = {
   title: 'Hansini Samarathunga | Business Analyst | Product Analyst | UI/UX Enthusiast',
-  description: 'Computer Science undergraduate passionate about Business Analysis, Product Thinking, User Experience Design, Quality Assurance, and technology-driven solutions.',
+  description: 'Final-year BSc (Hons) Computer Science student at NSBM Green University, passionate about Business Analysis, Product Management, User Experience Design, Quality Assurance, and building technology-driven solutions that create measurable business value.',
   keywords: [
     'Business Analyst',
     'Product Analyst',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://hansini.dev'),
   openGraph: {
     title: 'Hansini Samarathunga | Business Analyst | Product Analyst | UI/UX Enthusiast',
-    description: 'Computer Science undergraduate passionate about Business Analysis, Product Thinking, User Experience Design, Quality Assurance, and technology-driven solutions.',
+    description: 'Final-year BSc (Hons) Computer Science student at NSBM Green University, passionate about Business Analysis, Product Management, User Experience Design, Quality Assurance, and building technology-driven solutions that create measurable business value.',
     type: 'website',
     locale: 'en_US',
     url: 'https://hansini.dev',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Hansini Samarathunga | Business Analyst | Product Analyst | UI/UX Enthusiast',
-    description: 'Computer Science undergraduate passionate about Business Analysis, Product Thinking, User Experience Design, Quality Assurance, and technology-driven solutions.',
+    description: 'Final-year BSc (Hons) Computer Science student at NSBM Green University, passionate about Business Analysis, Product Management, User Experience Design, Quality Assurance, and building technology-driven solutions that create measurable business value.',
     images: ['/icon.svg'],
   },
   icons: {

@@ -3,28 +3,28 @@ import Image from 'next/image';
 export default function Experience() {
   const experiences = [
     {
-      title: 'FOSS Events & Community Leadership',
-      description: 'Active participant and council member in FOSS (Free and Open Source Software) community events, including HackTo Night 2.0 and Arduino Day 2025. Contributing to tech community building and innovation.',
+      title: 'Council Member',
+      description: 'FOSS Community of NSBM - Active participant and council member in FOSS (Free and Open Source Software) community, contributing to tech community building and innovation.',
       image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-04%20at%2010.22.06-00HdHsrILVpvSXHnKbSZ7QDoYzkqfw.jpeg',
-      alt: 'HackTo Night 2.0 presentation'
+      alt: 'FOSS Community event'
     },
     {
-      title: 'Arduino Community Engagement',
-      description: 'Involved in Arduino Day 2025 and FOSS community initiatives, fostering collaboration and knowledge sharing among developers and makers.',
+      title: 'Designing Team Lead',
+      description: 'Women in FOSS - Leading design initiatives and fostering collaboration among women in open-source communities, strengthening communication and teamwork.',
       image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-04%20at%2010.15.43-LdFaHHAh8rhgghM4081Cy8BIfICjJ7.jpeg',
+      alt: 'Women in FOSS initiative'
+    },
+    {
+      title: 'Event Volunteer',
+      description: 'Arduino Day 2025 - Actively engaged in community initiatives, fostering collaboration and knowledge sharing among developers and makers.',
+      image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-04%20at%2010.15.42-TPBURLe6k2f90aYKlT2L9iFVSo2ELF.jpeg',
       alt: 'Arduino Day 2025 community event'
     },
     {
-      title: 'NSBM Green University - Academic Excellence',
-      description: 'Final-year BSc (Hons) Computer Science student at NSBM Green University. Actively involved in university projects and achievements.',
-      image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-04%20at%2010.15.42-TPBURLe6k2f90aYKlT2L9iFVSo2ELF.jpeg',
-      alt: 'NSBM Green University event'
-    },
-    {
-      title: 'Professional & Community Engagement',
-      description: 'Actively participated in technology communities, leadership initiatives, university events, and professional networking opportunities, strengthening collaboration, communication, teamwork, and organizational skills.',
+      title: 'Community Organizer',
+      description: 'HackTo Night 2.0 - Organizing community hackathons and professional networking opportunities, strengthening collaboration, communication, and organizational skills.',
       image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-04%20at%2010.15.43%20%281%29-2R44s4RNOZMD74joF1VbIMSmPt5Udl.jpeg',
-      alt: 'ABM 2025 professional gathering'
+      alt: 'HackTo Night 2.0 community event'
     }
   ];
 
