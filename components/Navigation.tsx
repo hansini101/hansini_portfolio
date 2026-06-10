@@ -18,7 +18,7 @@ export default function Navigation() {
   return (
     <nav className="fixed top-0 w-full bg-background/80 backdrop-blur-md z-50 border-b border-accent/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex items-center justify-end md:justify-between h-16">
           {/* Desktop Navigation */}
           <div className="hidden md:flex gap-10">
             {navItems.map((item) => (
@@ -48,12 +48,12 @@ export default function Navigation() {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden pb-4 space-y-1 bg-background/95">
+          <div className="md:hidden pb-4 mt-2 space-y-1 rounded-2xl border border-border bg-background/95 shadow-lg px-2">
             {navItems.map((item) => (
               <a
                 key={item.label}
                 href={item.href}
-                className="block px-4 py-3 text-foreground hover:text-accent hover:bg-accent/5 transition-colors duration-300 rounded-lg text-sm font-medium"
+                className="block px-4 py-3 text-foreground hover:text-accent hover:bg-accent/5 transition-colors duration-300 rounded-xl text-sm font-medium"
                 onClick={() => setIsOpen(false)}
               >
                 {item.label}

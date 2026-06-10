@@ -45,7 +45,7 @@ export default function Footer() {
                 <Github size={24} />
               </a>
               <a
-                href="https://www.linkedin.com/in/hansini-samarathunga-091453270"
+                href="https://www.linkedin.com/in/hansinisamarathunga"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="opacity-90 hover:opacity-100 transition-opacity"

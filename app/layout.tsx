@@ -9,16 +9,38 @@ const _manrope = Manrope({ subsets: ["latin"], variable: '--font-manrope' });
 const _inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
 
 export const metadata: Metadata = {
-  title: 'Hansini Samarathunga | Product-Minded Problem Solver',
-  description: 'Computer Science graduate passionate about Business Analysis, Product Management, and Digital Innovation. Transforming ideas into meaningful digital solutions.',
-  keywords: ['Product Manager', 'Business Analyst', 'Software Developer', 'UX Designer', 'Digital Innovation'],
+  title: 'Hansini Samarathunga | Business Analyst | Product Analyst | UI/UX Enthusiast',
+  description: 'Computer Science undergraduate passionate about Business Analysis, Product Thinking, User Experience Design, Quality Assurance, and technology-driven solutions.',
+  keywords: [
+    'Business Analyst',
+    'Product Analyst',
+    'UI/UX Enthusiast',
+    'Quality Assurance',
+    'Computer Science',
+  ],
   creator: 'Hansini Samarathunga',
   metadataBase: new URL('https://hansini.dev'),
   openGraph: {
-    title: 'Hansini Samarathunga | Portfolio',
-    description: 'Computer Science graduate passionate about bridging technology and people',
+    title: 'Hansini Samarathunga | Business Analyst | Product Analyst | UI/UX Enthusiast',
+    description: 'Computer Science undergraduate passionate about Business Analysis, Product Thinking, User Experience Design, Quality Assurance, and technology-driven solutions.',
     type: 'website',
     locale: 'en_US',
+    url: 'https://hansini.dev',
+    siteName: 'Hansini Samarathunga Portfolio',
+    images: [
+      {
+        url: '/icon.svg',
+        width: 512,
+        height: 512,
+        alt: 'Hansini Samarathunga Portfolio',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Hansini Samarathunga | Business Analyst | Product Analyst | UI/UX Enthusiast',
+    description: 'Computer Science undergraduate passionate about Business Analysis, Product Thinking, User Experience Design, Quality Assurance, and technology-driven solutions.',
+    images: ['/icon.svg'],
   },
   icons: {
     icon: [

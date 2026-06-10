@@ -11,20 +11,20 @@ export default function Hero() {
       </div>
 
       <div className="relative max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
           {/* Content */}
-          <div className="space-y-8 lg:pr-8">
+          <div className="space-y-7 lg:space-y-8 lg:pr-8">
             <div className="space-y-6 animate-fade-in-up">
               <div>
-                <h1 className="text-5xl lg:text-6xl font-bold text-primary leading-tight" style={{ fontFamily: 'var(--font-manrope)' }}>
+                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-primary leading-tight break-words" style={{ fontFamily: 'var(--font-manrope)' }}>
                   Hansini Samarathunga
                 </h1>
               </div>
               <div>
-                <p className="text-2xl font-semibold text-secondary mb-3">
+                <p className="text-lg sm:text-2xl font-semibold text-secondary mb-3">
                   Business Analyst | Product Analyst | UI/UX Enthusiast
                 </p>
-                <p className="text-lg text-foreground/90 leading-relaxed">
+                <p className="text-base sm:text-lg text-foreground/90 leading-relaxed max-w-2xl">
                   Computer Science undergraduate passionate about Business Analysis, Product Thinking, User Experience Design, Quality Assurance, and building technology-driven solutions that create real value for users and organizations.
                 </p>
               </div>
@@ -35,16 +35,16 @@ export default function Hero() {
             </div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 pt-4 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
+            <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 pt-4 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
               <a
                 href="/business-cv.pdf"
-                className="px-6 py-3 bg-primary text-white font-medium rounded-lg hover:shadow-lg hover:bg-primary/90 transition-all duration-300"
+                className="w-full sm:w-auto text-center px-6 py-3 bg-primary text-white font-medium rounded-lg hover:shadow-lg hover:bg-primary/90 transition-all duration-300"
               >
                 Download Business CV
               </a>
               <a
                 href="/it-cv.pdf"
-                className="px-6 py-3 bg-accent text-accent-foreground font-medium rounded-lg hover:shadow-lg hover:bg-accent/90 transition-all duration-300"
+                className="w-full sm:w-auto text-center px-6 py-3 bg-accent text-accent-foreground font-medium rounded-lg hover:shadow-lg hover:bg-accent/90 transition-all duration-300"
               >
                 Download IT CV
               </a>
@@ -52,7 +52,7 @@ export default function Hero() {
                 href="https://www.linkedin.com/in/hansinisamarathunga"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 py-3 border border-primary text-primary font-medium rounded-lg hover:bg-primary/5 transition-all duration-300"
+                className="w-full sm:w-auto text-center px-6 py-3 border border-primary text-primary font-medium rounded-lg hover:bg-primary/5 transition-all duration-300"
               >
                 View LinkedIn
               </a>
@@ -60,14 +60,14 @@ export default function Hero() {
                 href="https://github.com/hansini101"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 py-3 border border-primary text-primary font-medium rounded-lg hover:bg-primary/5 transition-all duration-300"
+                className="w-full sm:w-auto text-center px-6 py-3 border border-primary text-primary font-medium rounded-lg hover:bg-primary/5 transition-all duration-300"
               >
                 View GitHub
               </a>
             </div>
 
             {/* Social Links */}
-            <div className="flex items-center gap-6 pt-6 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
+            <div className="flex items-center justify-center sm:justify-start gap-5 sm:gap-6 pt-6 animate-fade-in-up flex-wrap" style={{ animationDelay: '0.6s' }}>
               <a href="https://www.linkedin.com/in/hansinisamarathunga" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                 <Linkedin size={24} />
               </a>
@@ -81,8 +81,8 @@ export default function Hero() {
           </div>
 
           {/* Image */}
-          <div className="animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-            <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-xl border border-border">
+          <div className="animate-fade-in-up mt-2 lg:mt-0" style={{ animationDelay: '0.3s' }}>
+            <div className="relative h-[320px] sm:h-[420px] lg:h-[500px] rounded-2xl overflow-hidden shadow-xl border border-border">
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-03%20at%2018.03.09-zcq5WpRKNvTQ5xGlXiEAIgBqbr0Nox.jpeg"
                 alt="Hansini Samarathunga"
@@ -95,7 +95,7 @@ export default function Hero() {
         </div>
 
         {/* Scroll Indicator */}
-        <div className="flex justify-center mt-20 animate-bounce">
+        <div className="flex justify-center mt-14 sm:mt-20 animate-bounce">
           <ArrowDown className="text-accent" size={24} />
         </div>
       </div>
