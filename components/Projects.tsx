@@ -31,7 +31,7 @@ export default function Projects() {
       role: 'Workflow Analysis • Frontend Development • UI Implementation • Testing • UX Improvements',
       technologies: ['Next.js', 'React.js', 'MongoDB', 'Tailwind CSS'],
       keyContributions: ['Workflow Analysis', 'Frontend Development', 'UI Implementation', 'Testing', 'UX Improvements'],
-      github: 'https://github.com/hansini101/DocuHealth',
+      github: 'https://github.com/nminekshi/DocuHealth',
     },
     {
       title: 'UniBridge',
@@ -51,7 +51,7 @@ export default function Projects() {
       role: 'UI Design • Feature Planning • Development Support • User Experience Design',
       technologies: ['Java', 'Desktop Application', 'Database Management', 'UI/UX Design'],
       keyContributions: ['UI Design', 'Feature Planning', 'Development Support', 'UX Design', 'Business Workflow'],
-      github: 'https://github.com/hansini101/Livora',
+      github: 'https://github.com/MUA1234/Livora',
     },
   ];
 

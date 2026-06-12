@@ -49,12 +49,6 @@ export default function Hero() {
                 Download IT CV
               </a>
               <a
-                href="/portfolio.pdf"
-                className="w-full sm:w-auto text-center px-6 py-3 bg-secondary text-secondary-foreground font-medium rounded-lg hover:shadow-lg hover:bg-secondary/90 transition-all duration-300"
-              >
-                Download Portfolio PDF
-              </a>
-              <a
                 href="https://www.linkedin.com/in/hansinisamarathunga"
                 target="_blank"
                 rel="noopener noreferrer"
